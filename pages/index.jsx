@@ -1,0 +1,50 @@
+const Homepage = () => {
+  return (
+    <div className="container mx-auto">
+      {/* // Admin template */}
+      <div className="min-w-full flex justify-center text-center mt-10">
+        <div className="grid grid-cols-5 gap-7">
+            <a href="admin/admin1" className="h-44 w-52 bg-gray-400 flex justify-center items-center">
+              Admin 1
+            </a>
+            <a href="#" className="h-44 w-52 bg-gray-400 flex justify-center items-center">
+              Admin 2
+            </a>
+            <a href="#" className="h-44 w-52 bg-gray-400 flex justify-center items-center">
+              Admin 3
+            </a>
+            <a href="#" className="h-44 w-52 bg-gray-400 flex justify-center items-center">
+              Admin 4
+            </a>
+            <a href="#" className="h-44 w-52 bg-gray-400 flex justify-center items-center">
+              Admin 5
+            </a>
+        </div>
+      </div>
+
+      {/* // Gabut template */}
+      <div className="min-w-full flex justify-center text-center mt-10">
+        <div className="grid grid-cols-5 gap-7">
+            <a href="otakuDesu" className="h-44 w-52 bg-gray-400 flex justify-center items-center">
+              Otaku Desu
+            </a>
+            <a href="#" className="h-44 w-52 bg-gray-400 flex justify-center items-center">
+              ???
+            </a>
+            <a href="#" className="h-44 w-52 bg-gray-400 flex justify-center items-center">
+              ???
+            </a>
+            <a href="#" className="h-44 w-52 bg-gray-400 flex justify-center items-center">
+              ???
+            </a>
+            <a href="#" className="h-44 w-52 bg-gray-400 flex justify-center items-center">
+              ???
+            </a>
+        </div>
+      </div>
+    </div>
+
+  )
+}
+
+export default Homepage;

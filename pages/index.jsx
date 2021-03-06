@@ -28,8 +28,8 @@ const Homepage = () => {
             <a href="otakuDesu" className="h-44 w-52 bg-gray-400 flex justify-center items-center">
               Otaku Desu
             </a>
-            <a href="#" className="h-44 w-52 bg-gray-400 flex justify-center items-center">
-              ???
+            <a href="ponyTown" className="h-44 w-52 bg-gray-400 flex justify-center items-center">
+              Pony Town
             </a>
             <a href="#" className="h-44 w-52 bg-gray-400 flex justify-center items-center">
               ???

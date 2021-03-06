@@ -34,8 +34,8 @@ const Homepage = () => {
             <a href="spotify" className="h-44 w-52 bg-gray-400 flex justify-center items-center">
               Spotify
             </a>
-            <a href="#" className="h-44 w-52 bg-gray-400 flex justify-center items-center">
-              ???
+            <a href="tailwindCard" className="h-44 w-52 bg-gray-400 flex justify-center items-center">
+              Tailwind Card
             </a>
             <a href="#" className="h-44 w-52 bg-gray-400 flex justify-center items-center">
               ???

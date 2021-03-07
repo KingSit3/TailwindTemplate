@@ -44,6 +44,9 @@ const Homepage = () => {
             <a href="myAnimeAsia/homepage" className="h-44 w-52 bg-gray-400 flex justify-center items-center">
               MyAnimeAsia
             </a>
+            <a href="myPonyAsia" className="h-44 w-52 bg-gray-400 flex justify-center items-center">
+              MyPonyAsia New Switcher
+            </a>
         </div>
       </div>
 

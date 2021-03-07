@@ -1,6 +1,7 @@
 const Homepage = () => {
   return (
-    <div className="container mx-auto">
+  <div className="container mx-auto">
+
       {/* // Admin template */}
       <div className="min-w-full flex justify-center text-center mt-10">
         <div className="grid grid-cols-5 gap-7">
@@ -40,9 +41,13 @@ const Homepage = () => {
             <a href="twitter" className="h-44 w-52 bg-gray-400 flex justify-center items-center">
               Twitter
             </a>
+            <a href="myAnimeAsia" className="h-44 w-52 bg-gray-400 flex justify-center items-center">
+              MyAnimeAsia
+            </a>
         </div>
       </div>
-    </div>
+
+  </div>
 
   )
 }

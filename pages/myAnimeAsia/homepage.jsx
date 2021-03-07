@@ -62,7 +62,7 @@ const MyAnimeAsia = () => {
             {/* {{-- End On Progress Section --}} */}
 
             {/* {{-- Finished Anime --}} */}
-                <div className="my-10">
+                <div className="mt-10 mb-5">
                     <div className="border border-b-2 border-trueGray-700"></div>
                     <div className="flex justify-center">
                         <h1 className="absolute -mt-5 bg-trueGray-800 px-5 text-3xl font-semibold cursor-default">Finished Anime</h1>
@@ -111,6 +111,9 @@ const MyAnimeAsia = () => {
                             </a>
                         </div>
                     </div>
+                    <div className="flex justify-end">
+                        <a className=" mr-8 p-2 bg-blue-700 font-semibold rounded-lg hover:bg-blue-800 duration-200" href="#">See More</a>
+                    </div>
                     
                 </div>
             {/* {{-- End Finished Anime --}} */}
@@ -119,7 +122,7 @@ const MyAnimeAsia = () => {
             {/* {{-- Footer --}} */}
                 <div className="flex justify-center px-10 pt-2 bg-black shadow-2xl">
                     <div className="flex flex-col items-center justify-center ">
-                        <span className="font-bold text-lg mb-3">Partners</span>
+                        <span className="font-bold text-lg mb-3 cursor-default">Partners</span>
                         <div className="flex space-x-4">
                             <a href="#"><img className="w-28 rounded-xl hover:opacity-75 duration-150" src="../image/episodethumbnail.png" alt="Partners Banner" /></a>
                             <a href="#"><img className="w-28 rounded-xl hover:opacity-75 duration-150" src="../image/episodethumbnail.png" alt="Partners Banner" /></a>

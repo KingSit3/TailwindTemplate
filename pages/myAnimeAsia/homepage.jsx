@@ -34,7 +34,8 @@ const MyAnimeAsia = () => {
                         {/* Card */}
                         <a className="p-2 flex flex-col w-44 md:w-52 bg-black bg-opacity-25 hover:shadow-lg rounded-xl hover:opacity-50 duration-200" href="/myAnimeAsia/detail">
                             <img className="rounded-xl" src="../image/otaku-anime.jpg" alt="Poster"/>
-                            <p className="absolute p-2 bg-blue-700 -mt-2 -ml-2 rounded-tl-xl font-bold">TV</p>
+                            <p className="absolute p-2 bg-blue-700 -mt-2 -ml-2 rounded-tl-xl font-bold text-sm">TV</p>
+                            <p className="absolute p-2 bg-blue-700 -mt-2 ml-28 md:ml-36 rounded-tr-xl font-bold text-sm">16 Jan</p>
                             <p className="-mt-6 text-center bg-trueGray-700 font-semibold rounded-b-xl">Episode 8</p>
                             <p className="text-center mt-2">Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2</p>
                         </a>
@@ -42,7 +43,8 @@ const MyAnimeAsia = () => {
                         {/* Card */}
                         <a className="p-2 flex flex-col w-44 md:w-52 bg-black bg-opacity-25 hover:shadow-lg rounded-xl hover:opacity-50 duration-200" href="/myAnimeAsia/detail">
                             <img className="rounded-xl" src="../image/otaku-anime.jpg" alt="Poster"/>
-                            <p className="absolute p-2 bg-blue-700 -mt-2 -ml-2 rounded-tl-xl font-bold">BD</p>
+                            <p className="absolute p-2 bg-blue-700 -mt-2 -ml-2 rounded-tl-xl font-bold text-sm">BD</p>
+                            <p className="absolute p-2 bg-blue-700 -mt-2 ml-28 md:ml-36 rounded-tr-xl font-bold text-sm">26 Jan</p>
                             <p className="-mt-6 text-center bg-trueGray-700 font-semibold rounded-b-xl">Episode 1</p>
                             <p className="text-center mt-2">Tensei Shirata Slime Datta Ken S2</p>
                         </a>
@@ -50,7 +52,8 @@ const MyAnimeAsia = () => {
                         {/* Card */}
                         <a className="p-2 flex flex-col w-44 md:w-52 bg-black bg-opacity-25 hover:shadow-lg rounded-xl hover:opacity-50 duration-200" href="/myAnimeAsia/detail">
                             <img className="rounded-xl" src="../image/otaku-anime.jpg" alt="Poster"/>
-                            <p className="absolute p-2 bg-blue-700 -mt-2 -ml-2 rounded-tl-xl font-bold">TV</p>
+                            <p className="absolute p-2 bg-blue-700 -mt-2 -ml-2 rounded-tl-xl font-bold text-sm">TV</p>
+                            <p className="absolute p-2 bg-blue-700 -mt-2 ml-28 md:ml-36 rounded-tr-xl font-bold text-sm">20 Jan</p>
                             <p className="-mt-6 text-center bg-trueGray-700 font-semibold rounded-b-xl">Episode 12</p>
                             <p className="text-center mt-2">Tensei Shirata Slime Datta Ken S2</p>
                         </a>
@@ -73,7 +76,8 @@ const MyAnimeAsia = () => {
                             {/* Card, Max 5 */}
                             <a className="p-2 flex flex-col w-44 md:w-52 bg-black bg-opacity-25 hover:shadow-lg rounded-xl hover:opacity-50 duration-200" href="/myAnimeAsia/detail">
                                 <img className="rounded-xl" src="../image/otaku-anime.jpg" alt="Poster"/>
-                                <p className="absolute p-2 bg-blue-700 -mt-2 -ml-2 rounded-tl-xl font-bold">TV</p>
+                                <p className="absolute p-2 bg-blue-700 -mt-2 -ml-2 rounded-tl-xl font-bold text-sm">TV</p>
+                                <p className="absolute p-2 bg-blue-700 -mt-2 ml-28 md:ml-36 rounded-tr-xl font-bold text-sm">20 Jan</p>
                                 <p className="-mt-6 text-center bg-trueGray-700 font-semibold rounded-b-xl">Episode 12</p>
                                 <p className="text-center mt-2">Tensei Shirata Slime Datta Ken S2</p>
                             </a>
@@ -81,31 +85,36 @@ const MyAnimeAsia = () => {
 
                             <a className="p-2 flex flex-col w-44 md:w-52 bg-black bg-opacity-25 hover:shadow-lg rounded-xl hover:opacity-50 duration-200" href="/myAnimeAsia/detail">
                                 <img className="rounded-xl" src="../image/otaku-anime.jpg" alt="Poster"/>
-                                <p className="absolute p-2 bg-blue-700 -mt-2 -ml-2 rounded-tl-xl font-bold">BD</p>
+                                <p className="absolute p-2 bg-blue-700 -mt-2 -ml-2 rounded-tl-xl font-bold text-sm">BD</p>
+                            <p className="absolute p-2 bg-blue-700 -mt-2 ml-28 md:ml-36 rounded-tr-xl font-bold text-sm">20 Jan</p>
                                 <p className="-mt-6 text-center bg-trueGray-700 font-semibold rounded-b-xl">Episode 12</p>
                                 <p className="text-center mt-2">Tensei Shirata Slime Datta Ken S2</p>
                             </a>
                             <a className="p-2 flex flex-col w-44 md:w-52 bg-black bg-opacity-25 hover:shadow-lg rounded-xl hover:opacity-50 duration-200" href="/myAnimeAsia/detail">
                                 <img className="rounded-xl" src="../image/otaku-anime.jpg" alt="Poster"/>
-                                <p className="absolute p-2 bg-blue-700 -mt-2 -ml-2 rounded-tl-xl font-bold">TV</p>
+                                <p className="absolute p-2 bg-blue-700 -mt-2 -ml-2 rounded-tl-xl font-bold text-sm">TV</p>
+                            <p className="absolute p-2 bg-blue-700 -mt-2 ml-28 md:ml-36 rounded-tr-xl font-bold text-sm">26 Jan</p>
                                 <p className="-mt-6 text-center bg-trueGray-700 font-semibold rounded-b-xl">Episode 12</p>
                                 <p className="text-center mt-2">Tensei Shirata Slime Datta Ken S2</p>
                             </a>
                             <a className="p-2 flex flex-col w-44 md:w-52 bg-black bg-opacity-25 hover:shadow-lg rounded-xl hover:opacity-50 duration-200" href="/myAnimeAsia/detail">
                                 <img className="rounded-xl" src="../image/otaku-anime.jpg" alt="Poster"/>
-                                <p className="absolute p-2 bg-blue-700 -mt-2 -ml-2 rounded-tl-xl font-bold">BD</p>
+                                <p className="absolute p-2 bg-blue-700 -mt-2 -ml-2 rounded-tl-xl font-bold text-sm">BD</p>
+                            <p className="absolute p-2 bg-blue-700 -mt-2 ml-28 md:ml-36 rounded-tr-xl font-bold text-sm">20 Jan</p>
                                 <p className="-mt-6 text-center bg-trueGray-700 font-semibold rounded-b-xl">Episode 12</p>
                                 <p className="text-center mt-2">Tensei Shirata Slime Datta Ken S2</p>
                             </a>
                             <a className="p-2 flex flex-col w-44 md:w-52 bg-black bg-opacity-25 hover:shadow-lg rounded-xl hover:opacity-50 duration-200" href="/myAnimeAsia/detail">
                                 <img className="rounded-xl" src="../image/otaku-anime.jpg" alt="Poster"/>
-                                <p className="absolute p-2 bg-blue-700 -mt-2 -ml-2 rounded-tl-xl font-bold">BD</p>
+                                <p className="absolute p-2 bg-blue-700 -mt-2 -ml-2 rounded-tl-xl font-bold text-sm">TV</p>
+                            <p className="absolute p-2 bg-blue-700 -mt-2 ml-28 md:ml-36 rounded-tr-xl font-bold text-sm">20 Jan</p>
                                 <p className="-mt-6 text-center bg-trueGray-700 font-semibold rounded-b-xl">Episode 12</p>
                                 <p className="text-center mt-2">Tensei Shirata Slime Datta Ken S2</p>
                             </a>
                             <a className="p-2 flex flex-col w-44 md:w-52 bg-black bg-opacity-25 hover:shadow-lg rounded-xl hover:opacity-50 duration-200" href="/myAnimeAsia/detail">
                                 <img className="rounded-xl" src="../image/otaku-anime.jpg" alt="Poster"/>
-                                <p className="absolute p-2 bg-blue-700 -mt-2 -ml-2 rounded-tl-xl font-bold">BD</p>
+                                <p className="absolute p-2 bg-blue-700 -mt-2 -ml-2 rounded-tl-xl font-bold text-sm">BD</p>
+                            <p className="absolute p-2 bg-blue-700 -mt-2 ml-28 md:ml-36 rounded-tr-xl font-bold text-sm">12 Jan</p>
                                 <p className="-mt-6 text-center bg-trueGray-700 font-semibold rounded-b-xl">Episode 12</p>
                                 <p className="text-center mt-2">Tensei Shirata Slime Datta Ken S2</p>
                             </a>

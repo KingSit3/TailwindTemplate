@@ -6,7 +6,7 @@ const Homepage = () => {
             {/* {{-- Navbar --}} */}
                 <div className="flex justify-start bg-black p-4 rounded-b shadow-xl">
                     <div>
-                        <a href="#">
+                        <a href="/myAnimeAsia/homepage">
                             <img className="w-40" src="../image/mpa.png" alt="" />
                         </a>
                     </div>
@@ -79,24 +79,24 @@ const Homepage = () => {
                             <div className="flex flex-col justify-center">
                                 <p className="text-center">Streaming</p>
                                 <div className="grid grid-cols-2 gap-4 text-center mt-2">
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">English</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">English 360p</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">Indonesia</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">Indonesia 360p</a>
+                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">English</a>
+                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">English 360p</a>
+                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Indonesia</a>
+                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Indonesia 360p</a>
                                 </div>
                             </div>
                             <div className="flex flex-col justify-center">
                                 <p className="text-center">Download Mp4</p>
                                 <div className="grid grid-cols-2 gap-4 text-center mt-2">
-                                    <a className="p-3 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">720p</a>
-                                    <a className="p-3 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">360p</a>
+                                    <a className="p-3 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">720p</a>
+                                    <a className="p-3 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">360p</a>
                                 </div>
                             </div>
                             <div className="flex flex-col justify-center">
                                 <p className="text-center">Download Mkv</p>
                                 <div className="grid grid-cols-2 gap-4 text-center mt-2">
-                                    <a className="p-3 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">720p</a>
-                                    <a className="p-3 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">360p</a>
+                                    <a className="p-3 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">720p</a>
+                                    <a className="p-3 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">360p</a>
                                 </div>
                             </div>
                         </div>
@@ -111,24 +111,24 @@ const Homepage = () => {
                             <div className="flex flex-col justify-center">
                                 <p className="text-center">Streaming</p>
                                 <div className="grid grid-cols-2 gap-4 text-center mt-2">
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">English</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">English 360p</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">Indonesia</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">Indonesia 360p</a>
+                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">English</a>
+                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">English 360p</a>
+                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Indonesia</a>
+                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Indonesia 360p</a>
                                 </div>
                             </div>
                             <div className="flex flex-col justify-center">
                                 <p className="text-center">Download Mp4</p>
                                 <div className="grid grid-cols-2 gap-4 text-center mt-2">
-                                    <a className="p-3 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">720p</a>
-                                    <a className="p-3 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">360p</a>
+                                    <a className="p-3 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">720p</a>
+                                    <a className="p-3 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">360p</a>
                                 </div>
                             </div>
                             <div className="flex flex-col justify-center">
                                 <p className="text-center">Download Mkv</p>
                                 <div className="grid grid-cols-2 gap-4 text-center mt-2">
-                                    <a className="p-3 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">720p</a>
-                                    <a className="p-3 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">360p</a>
+                                    <a className="p-3 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">720p</a>
+                                    <a className="p-3 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">360p</a>
                                 </div>
                             </div>
                         </div>
@@ -146,23 +146,23 @@ const Homepage = () => {
                             <span className="bg-blue-700 px-16 rounded-md text-xl">Episode 01</span>
                             <div className="flex space-x-6 items-center mt-4">
                                 <p className="text-center">Streaming: </p>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">English</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">English 360p</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">Indonesia</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">Indonesia 360p</a>
+                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">English</a>
+                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">English 360p</a>
+                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Indonesia</a>
+                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Indonesia 360p</a>
                             </div>
                             <div className="flex space-x-6 items-center mt-4">
                                 <p className="text-center">Download Mp4: </p>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">English</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">English 360p</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">Indonesia</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">Indonesia 360p</a>
+                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">English</a>
+                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">English 360p</a>
+                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Indonesia</a>
+                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Indonesia 360p</a>
                             </div>
                             <div className="flex space-x-6 items-center mt-4">
                                 <p className="text-center">Download Mkv: </p>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">Server 1</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">Server 2</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">Server 3 [360p]</a>
+                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Server 1</a>
+                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Server 2</a>
+                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Server 3 [360p]</a>
                             </div>
                         </div>
                     </div>
@@ -173,23 +173,23 @@ const Homepage = () => {
                             <span className="bg-blue-700 px-16 rounded-md text-xl">Episode 02</span>
                             <div className="flex space-x-6 items-center mt-4">
                                 <p className="text-center">Streaming: </p>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">English</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">English 360p</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">Indonesia</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">Indonesia 360p</a>
+                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">English</a>
+                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">English 360p</a>
+                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Indonesia</a>
+                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Indonesia 360p</a>
                             </div>
                             <div className="flex space-x-6 items-center mt-4">
                                 <p className="text-center">Download Mp4: </p>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">English</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">English 360p</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">Indonesia</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">Indonesia 360p</a>
+                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">English</a>
+                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">English 360p</a>
+                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Indonesia</a>
+                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Indonesia 360p</a>
                             </div>
                             <div className="flex space-x-6 items-center mt-4">
                                 <p className="text-center">Download Mkv: </p>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">Server 1</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">Server 2</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="#">Server 3 [360p]</a>
+                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Server 1</a>
+                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Server 2</a>
+                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Server 3 [360p]</a>
                             </div>
                         </div>
                     </div>
@@ -202,24 +202,23 @@ const Homepage = () => {
                     <div className="flex flex-col items-center justify-center ">
                         <span className="font-bold text-lg mb-3 cursor-default">Partners</span>
                         <div className="flex space-x-4">
-                            <a href="#"><img className="w-28 rounded-xl hover:opacity-75 duration-150" src="../image/episodethumbnail.png" alt="Partners Banner" /></a>
-                            <a href="#"><img className="w-28 rounded-xl hover:opacity-75 duration-150" src="../image/episodethumbnail.png" alt="Partners Banner" /></a>
-                            <a href="#"><img className="w-28 rounded-xl hover:opacity-75 duration-150" src="../image/episodethumbnail.png" alt="Partners Banner" /></a>
+                            <a href="/myAnimeAsia/stream"><img className="w-28 rounded-xl hover:opacity-75 duration-150" src="../image/episodethumbnail.png" alt="Partners Banner" /></a>
+                            <a href="/myAnimeAsia/stream"><img className="w-28 rounded-xl hover:opacity-75 duration-150" src="../image/episodethumbnail.png" alt="Partners Banner" /></a>
+                            <a href="/myAnimeAsia/stream"><img className="w-28 rounded-xl hover:opacity-75 duration-150" src="../image/episodethumbnail.png" alt="Partners Banner" /></a>
                         </div>
                         <div className="flex flex-col sm:flex-row mt-3 text-center">
-                            <a href="#" className="mx-5 hover:opacity-60 duration-150">Privacy Policy</a>
+                            <a href="/myAnimeAsia/stream" className="mx-5 hover:opacity-60 duration-150">Privacy Policy</a>
                             &bull;
-                            <a href="#" className="mx-5 hover:opacity-60 duration-150">FeedBack</a>
+                            <a href="/myAnimeAsia/stream" className="mx-5 hover:opacity-60 duration-150">FeedBack</a>
                             &bull;
-                            <a href="#" className="mx-5 hover:opacity-60 duration-150">Support Us</a>
+                            <a href="/myAnimeAsia/stream" className="mx-5 hover:opacity-60 duration-150">Support Us</a>
                             &bull;
-                            <a href="#" className="mx-5 hover:opacity-60 duration-150">Contact Us</a>
+                            <a href="/myAnimeAsia/stream" className="mx-5 hover:opacity-60 duration-150">Contact Us</a>
                         </div>
                         <div className="border border-b-2 border-trueGray-700 border-opacity-75 w-full mt-2"></div>
                         <div className="text-center bg-black pb-5 mt-2 text-sm">My Pony Asia is in no way associated with Hasbro or any author of the series My Little Pony Friendship is Magic and its derivatives.</div>
                     </div>
                 </div>
-                
             {/* {{-- End Footer --}} */}
         </div>
 

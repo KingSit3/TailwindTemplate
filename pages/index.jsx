@@ -41,14 +41,29 @@ const Homepage = () => {
             <a href="twitter" className="h-44 w-52 bg-gray-400 flex justify-center items-center">
               Twitter
             </a>
+        </div>
+      </div>
+      
+      <p className="my-5 text-center font-bold">My Pony Asia (Anime)</p>
+      <div className="min-w-full flex justify-center text-center">
+        <div className="grid grid-cols-4 gap-7 pb-5">
+        
             <a href="myAnimeAsia/homepage" className="h-44 w-52 bg-gray-400 flex justify-center items-center">
-              MyAnimeAsia
+              HomePage
+            </a>
+            <a href="myAnimeAsia/detail" className="h-44 w-52 bg-gray-400 flex justify-center items-center">
+              Detail Anime
+            </a>
+            <a href="myAnimeAsia/stream" className="h-44 w-52 bg-gray-400 flex justify-center items-center">
+              Stream Anime
             </a>
             <a href="myPonyAsia" className="h-44 w-52 bg-gray-400 flex justify-center items-center">
-              MyPonyAsia New Switcher
+              Switcher (Pony atau Anime)
             </a>
         </div>
       </div>
+          
+      
 
   </div>
 

@@ -24,7 +24,7 @@ const MyAnimeAsia = () => {
             {/* End Corousel Section */}
 
             {/* {{-- On Progress Section --}} */}
-                <div className="my-14">
+                <div className="my-10">
                     <div className="border border-b-2 border-trueGray-700"></div>
                     <div className="flex justify-center">
                         <h1 className="absolute -mt-5 bg-trueGray-800 px-5 text-3xl font-semibold cursor-default">On Progress</h1>
@@ -62,7 +62,7 @@ const MyAnimeAsia = () => {
             {/* {{-- End On Progress Section --}} */}
 
             {/* {{-- Finished Anime --}} */}
-                <div className="my-14">
+                <div className="my-10">
                     <div className="border border-b-2 border-trueGray-700"></div>
                     <div className="flex justify-center">
                         <h1 className="absolute -mt-5 bg-trueGray-800 px-5 text-3xl font-semibold cursor-default">Finished Anime</h1>
@@ -111,19 +111,28 @@ const MyAnimeAsia = () => {
 
 
             {/* {{-- Footer --}} */}
-                <div className="flex justify-between px-10 p-5 bg-black shadow-2xl">
-                    <div className="w-1/3">FIrst</div>
-                    <div className="w-1/3 flex flex-col items-center justify-center ">
+                <div className="flex justify-center px-10 pt-2 bg-black shadow-2xl">
+                    <div className="flex flex-col items-center justify-center ">
                         <span className="font-bold text-lg mb-3">Partners</span>
                         <div className="flex space-x-4">
                             <a href="#"><img className="w-28 rounded-xl hover:opacity-75 duration-150" src="image/episodethumbnail.png" alt="Partners Banner" /></a>
                             <a href="#"><img className="w-28 rounded-xl hover:opacity-75 duration-150" src="image/episodethumbnail.png" alt="Partners Banner" /></a>
                             <a href="#"><img className="w-28 rounded-xl hover:opacity-75 duration-150" src="image/episodethumbnail.png" alt="Partners Banner" /></a>
                         </div>
+                        <div className="flex flex-row mt-3">
+                            <a href="#" className="mx-5">Privacy Policy</a>
+                            &bull;
+                            <a href="#" className="mx-5">FeedBack</a>
+                            &bull;
+                            <a href="#" className="mx-5">Support Us</a>
+                            &bull;
+                            <a href="#" className="mx-5">Contact Us</a>
+                        </div>
+                        <div className="border border-b-2 border-trueGray-700 border-opacity-75 w-full mt-2"></div>
+                        <div className="text-center bg-black pb-5 mt-2 text-sm">My Pony Asia is in no way associated with Hasbro or any author of the series My Little Pony Friendship is Magic and its derivatives.</div>
                     </div>
-                    <div className="w-1/3 flex justify-center">Third</div>
                 </div>
-                <div className="text-center bg-black pb-3">This Website Made by @....</div>
+                
             {/* {{-- End Footer --}} */}
         </div>
 

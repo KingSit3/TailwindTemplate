@@ -112,7 +112,7 @@ const MyAnimeAsia = () => {
                         </div>
                     </div>
                     <div className="flex justify-end">
-                        <a className=" mr-8 p-2 bg-blue-700 font-semibold rounded-lg hover:bg-blue-800 duration-200" href="#">See More</a>
+                        <a className=" mr-5 p-2 bg-blue-700 font-semibold rounded-lg hover:bg-blue-800 duration-200" href="#">See More</a>
                     </div>
                     
                 </div>

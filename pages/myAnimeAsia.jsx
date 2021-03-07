@@ -23,20 +23,46 @@ const MyAnimeAsia = () => {
                 </div>
             {/* End Corousel Section */}
 
-            {/* {{-- Garapan Section --}} */}
-                <div className="my-20">
+            {/* {{-- On Progress Section --}} */}
+                <div className="my-14">
                     <div className="border border-b-2 border-trueGray-700"></div>
                     <div className="flex justify-center">
-                        <h1 className="absolute -mt-5 bg-trueGray-800 px-5 text-3xl font-semibold cursor-default">Garapan Progress</h1>
+                        <h1 className="absolute -mt-5 bg-trueGray-800 px-5 text-3xl font-semibold cursor-default">On Progress</h1>
+                    </div>
+                    
+                    <div className="p-4 mt-5 flex justify-center space-x-10">
+                        {/* Card */}
+                        <a className="p-2 flex flex-col w-52 bg-black bg-opacity-25 hover:shadow-lg rounded-xl hover:opacity-50 duration-200" href="#">
+                            <img className="rounded-xl" src="image/otaku-anime.jpg" alt="Poster"/>
+                            <p className="absolute p-2 bg-blue-700 -mt-2 -ml-2 rounded-tl-xl font-bold">TV</p>
+                            <p className="-mt-6 text-center bg-trueGray-700 font-semibold rounded-b-xl">Episode 8</p>
+                            <p className="text-center mt-2">Tensei Shirata Slime Datta Ken S2</p>
+                        </a>
+                        {/* End Card */}
+                        {/* Card */}
+                        <a className="p-2 flex flex-col w-52 bg-black bg-opacity-25 hover:shadow-lg rounded-xl hover:opacity-50 duration-200" href="#">
+                            <img className="rounded-xl" src="image/otaku-anime.jpg" alt="Poster"/>
+                            <p className="absolute p-2 bg-blue-700 -mt-2 -ml-2 rounded-tl-xl font-bold">BD</p>
+                            <p className="-mt-6 text-center bg-trueGray-700 font-semibold rounded-b-xl">Episode 1</p>
+                            <p className="text-center mt-2">Tensei Shirata Slime Datta Ken S2</p>
+                        </a>
+                        {/* End Card */}
+                        {/* Card */}
+                        <a className="p-2 flex flex-col w-52 bg-black bg-opacity-25 hover:shadow-lg rounded-xl hover:opacity-50 duration-200" href="#">
+                            <img className="rounded-xl" src="image/otaku-anime.jpg" alt="Poster"/>
+                            <p className="absolute p-2 bg-blue-700 -mt-2 -ml-2 rounded-tl-xl font-bold">TV</p>
+                            <p className="-mt-6 text-center bg-trueGray-700 font-semibold rounded-b-xl">Episode 12</p>
+                            <p className="text-center mt-2">Tensei Shirata Slime Datta Ken S2</p>
+                        </a>
+                        {/* End Card */}
                     </div>
 
 
-
                 </div>
-            {/* {{-- End Garapan Section --}} */}
+            {/* {{-- End On Progress Section --}} */}
 
             {/* {{-- Finished Anime --}} */}
-                <div className="my-20">
+                <div className="my-14">
                     <div className="border border-b-2 border-trueGray-700"></div>
                     <div className="flex justify-center">
                         <h1 className="absolute -mt-5 bg-trueGray-800 px-5 text-3xl font-semibold cursor-default">Finished Anime</h1>
@@ -44,12 +70,15 @@ const MyAnimeAsia = () => {
 
                     <div className="p-4 mt-5">
                         <div className="grid grid-cols-5 gap-3">
+                            {/* Card, Max 5 */}
                             <a className="p-2 flex flex-col w-52 bg-black bg-opacity-25 hover:shadow-lg rounded-xl hover:opacity-50 duration-200" href="#">
                                 <img className="rounded-xl" src="image/otaku-anime.jpg" alt="Poster"/>
                                 <p className="absolute p-2 bg-blue-700 -mt-2 -ml-2 rounded-tl-xl font-bold">TV</p>
                                 <p className="-mt-6 text-center bg-trueGray-700 font-semibold rounded-b-xl">Episode 12</p>
                                 <p className="text-center mt-2">Tensei Shirata Slime Datta Ken S2</p>
                             </a>
+                            {/* End Card */}
+
                             <a className="p-2 flex flex-col w-52 bg-black bg-opacity-25 hover:shadow-lg rounded-xl hover:opacity-50 duration-200" href="#">
                                 <img className="rounded-xl" src="image/otaku-anime.jpg" alt="Poster"/>
                                 <p className="absolute p-2 bg-blue-700 -mt-2 -ml-2 rounded-tl-xl font-bold">BD</p>

@@ -35,58 +35,50 @@ const MyAnimeAsia = () => {
                 </div>
             {/* {{-- End Garapan Section --}} */}
 
-            {/* {{-- Popular Episodes --}} */}
+            {/* {{-- Finished Anime --}} */}
                 <div className="my-20">
                     <div className="border border-b-2 border-trueGray-700"></div>
                     <div className="flex justify-center">
-                        <h1 className="absolute -mt-5 bg-trueGray-800 px-5 text-3xl font-semibold cursor-default">Popular Episodes</h1>
+                        <h1 className="absolute -mt-5 bg-trueGray-800 px-5 text-3xl font-semibold cursor-default">Finished Anime</h1>
                     </div>
 
-                    <div className="mt-8 py-2 px-10">
-                        <div className="grid grid-cols-3 gap-5">
-
-                            <div className="group">
-                                <a className="flex justify-center items-center" href="#">
-                                    <div className="absolute opacity-0 group-hover:opacity-100 duration-150 w-30% h-35%">
-                                        <div className="flex flex-col text-center ml-10">
-                                            <span className=" w-11/12 mt-2 font-semibold text-xl">Friendship Is Magic</span>
-                                            <span className=" w-11/12 mt-2 font-semibold text-xl">Season 1</span>
-                                            <span className=" w-11/12 mt-2 font-semibold text-sm">Episode 20 - The Mysterious Voice & The 5 Habits of Highly Effective Ponies</span>
-                                        </div>
-                                    </div>
-                                    <img className="rounded-xl group-hover:opacity-10 duration-150" src="image/episodethumbnail.png" alt="Thumbnail" />
-                                </a>
-                            </div>
-                            <div className="group">
-                                <a className="flex justify-center items-center" href="#">
-                                    <div className="absolute opacity-0 group-hover:opacity-100 duration-150 w-30% h-35%">
-                                        <div className="flex flex-col text-center ml-10">
-                                            <span className=" w-11/12 mt-2 font-semibold text-xl">Friendship Is Magic</span>
-                                            <span className=" w-11/12 mt-2 font-semibold text-xl">Season 1</span>
-                                            <span className=" w-11/12 mt-2 font-semibold text-sm">Episode 20 - The Mysterious Voice & The 5 Habits of Highly Effective Ponies</span>
-                                        </div>
-                                    </div>
-                                    <img className="rounded-xl group-hover:opacity-10 duration-150" src="image/episodethumbnail.png" alt="Thumbnail" />
-                                </a>
-                            </div>
-                            <div className="group">
-                                <a className="flex justify-center items-center" href="#">
-                                    <div className="absolute opacity-0 group-hover:opacity-100 duration-150 w-30% h-35%">
-                                        <div className="flex flex-col text-center ml-10">
-                                            <span className=" w-11/12 mt-2 font-semibold text-xl">Friendship Is Magic</span>
-                                            <span className=" w-11/12 mt-2 font-semibold text-xl">Season 1</span>
-                                            <span className=" w-11/12 mt-2 font-semibold text-sm">Episode 20 - The Mysterious Voice & The 5 Habits of Highly Effective Ponies</span>
-                                        </div>
-                                    </div>
-                                    <img className="rounded-xl group-hover:opacity-10 duration-150" src="image/episodethumbnail.png" alt="Thumbnail" />
-                                </a>
-                            </div>
-
+                    <div className="p-4 mt-5">
+                        <div className="grid grid-cols-5 gap-3">
+                            <a className="p-2 flex flex-col w-52 bg-black bg-opacity-25 hover:shadow-lg rounded-xl hover:opacity-50 duration-200" href="#">
+                                <img className="rounded-xl" src="image/otaku-anime.jpg" alt="Poster"/>
+                                <p className="absolute p-2 bg-blue-700 -mt-2 -ml-2 rounded-tl-xl font-bold">TV</p>
+                                <p className="-mt-6 text-center bg-trueGray-700 font-semibold rounded-b-xl">Episode 12</p>
+                                <p className="text-center mt-2">Tensei Shirata Slime Datta Ken S2</p>
+                            </a>
+                            <a className="p-2 flex flex-col w-52 bg-black bg-opacity-25 hover:shadow-lg rounded-xl hover:opacity-50 duration-200" href="#">
+                                <img className="rounded-xl" src="image/otaku-anime.jpg" alt="Poster"/>
+                                <p className="absolute p-2 bg-blue-700 -mt-2 -ml-2 rounded-tl-xl font-bold">BD</p>
+                                <p className="-mt-6 text-center bg-trueGray-700 font-semibold rounded-b-xl">Episode 12</p>
+                                <p className="text-center mt-2">Tensei Shirata Slime Datta Ken S2</p>
+                            </a>
+                            <a className="p-2 flex flex-col w-52 bg-black bg-opacity-25 hover:shadow-lg rounded-xl hover:opacity-50 duration-200" href="#">
+                                <img className="rounded-xl" src="image/otaku-anime.jpg" alt="Poster"/>
+                                <p className="absolute p-2 bg-blue-700 -mt-2 -ml-2 rounded-tl-xl font-bold">TV</p>
+                                <p className="-mt-6 text-center bg-trueGray-700 font-semibold rounded-b-xl">Episode 12</p>
+                                <p className="text-center mt-2">Tensei Shirata Slime Datta Ken S2</p>
+                            </a>
+                            <a className="p-2 flex flex-col w-52 bg-black bg-opacity-25 hover:shadow-lg rounded-xl hover:opacity-50 duration-200" href="#">
+                                <img className="rounded-xl" src="image/otaku-anime.jpg" alt="Poster"/>
+                                <p className="absolute p-2 bg-blue-700 -mt-2 -ml-2 rounded-tl-xl font-bold">BD</p>
+                                <p className="-mt-6 text-center bg-trueGray-700 font-semibold rounded-b-xl">Episode 12</p>
+                                <p className="text-center mt-2">Tensei Shirata Slime Datta Ken S2</p>
+                            </a>
+                            <a className="p-2 flex flex-col w-52 bg-black bg-opacity-25 hover:shadow-lg rounded-xl hover:opacity-50 duration-200" href="#">
+                                <img className="rounded-xl" src="image/otaku-anime.jpg" alt="Poster"/>
+                                <p className="absolute p-2 bg-blue-700 -mt-2 -ml-2 rounded-tl-xl font-bold">BD</p>
+                                <p className="-mt-6 text-center bg-trueGray-700 font-semibold rounded-b-xl">Episode 12</p>
+                                <p className="text-center mt-2">Tensei Shirata Slime Datta Ken S2</p>
+                            </a>
                         </div>
                     </div>
-
+                    
                 </div>
-            {/* {{-- End Popular Episode --}} */}
+            {/* {{-- End Finished Anime --}} */}
 
 
             {/* {{-- Footer --}} */}

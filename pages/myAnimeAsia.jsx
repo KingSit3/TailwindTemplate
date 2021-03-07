@@ -16,8 +16,9 @@ const MyAnimeAsia = () => {
             {/* Corousel Section */}
                 <div className="flex w-full bg-black h-96">
                     <img className="w-full h-full object-cover opacity-30" src="/image/episodethumbnail.png" alt="Corousel"/>
-                    <div className="absolute w-full h-96 flex justify-center items-center">
-                        <p className="font-semibold text-3xl">Gotoubun No Hanayome Season 2 Is Out!</p>
+                    <div className="absolute w-full h-96 flex flex-col justify-center items-center font-semibold">
+                        <p className="text-3xl cursor-default">Gotoubun No Hanayome Season 2 Is Out!</p>
+                        <a className="ring-2 ring-white p-2 rounded-lg mt-3 hover:bg-white hover:text-black duration-150" href="#">Click Here</a>
                     </div>
                 </div>
             {/* End Corousel Section */}

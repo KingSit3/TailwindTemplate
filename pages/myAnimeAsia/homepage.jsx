@@ -127,7 +127,6 @@ const MyAnimeAsia = () => {
                 </div>
             {/* {{-- End Finished Anime --}} */}
 
-
             {/* {{-- Footer --}} */}
                 <div className="flex justify-center px-10 pt-2 bg-black shadow-2xl">
                     <div className="flex flex-col items-center justify-center ">

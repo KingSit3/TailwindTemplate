@@ -12,6 +12,7 @@ module.exports = {
         'gray-ponytown': '#333333',
         'trueGray': colors.trueGray,
         'cyan': colors.cyan,
+        'amber': colors.amber,
         'lightBlue': colors.lightBlue,
       },  
       spacing: {

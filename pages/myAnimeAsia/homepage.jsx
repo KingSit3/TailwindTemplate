@@ -137,20 +137,19 @@ const MyAnimeAsia = () => {
                             <a href="/myAnimeAsia/detail"><img className="w-28 rounded-xl hover:opacity-75 duration-150" src="../image/episodethumbnail.png" alt="Partners Banner" /></a>
                             <a href="/myAnimeAsia/detail"><img className="w-28 rounded-xl hover:opacity-75 duration-150" src="../image/episodethumbnail.png" alt="Partners Banner" /></a>
                         </div>
-                        <div className="flex flex-col sm:flex-row mt-3 text-center">
+                        <div className="grid grid-cols-2 gap-3 sm:flex sm:flex-row  mt-3 text-center">
                             <a href="/myAnimeAsia/detail" className="mx-5 hover:opacity-60 duration-150">Privacy Policy</a>
-                            &bull;
+                            <span className="hidden sm:contents">&bull;</span>
                             <a href="/myAnimeAsia/detail" className="mx-5 hover:opacity-60 duration-150">FeedBack</a>
-                            &bull;
+                            <span className="hidden sm:contents">&bull;</span>
                             <a href="/myAnimeAsia/detail" className="mx-5 hover:opacity-60 duration-150">Support Us</a>
-                            &bull;
+                            <span className="hidden sm:contents">&bull;</span>
                             <a href="/myAnimeAsia/detail" className="mx-5 hover:opacity-60 duration-150">Contact Us</a>
                         </div>
                         <div className="border border-b-2 border-trueGray-700 border-opacity-75 w-full mt-2"></div>
                         <div className="text-center bg-black pb-5 mt-2 text-sm">My Pony Asia is in no way associated with Hasbro or any author of the series My Little Pony Friendship is Magic and its derivatives.</div>
                     </div>
                 </div>
-                
             {/* {{-- End Footer --}} */}
         </div>
 

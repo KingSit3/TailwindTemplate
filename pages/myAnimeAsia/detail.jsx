@@ -15,7 +15,7 @@ const Homepage = () => {
 
             {/* {{-- Top Section --}} */}
                 <div className="my-5 flex flex-col md:flex-row mx-5 md:mx-16 lg:mx-32">
-                    <img className="mx-auto max-w-sm sm:max-w-md md:max-w-xl" src="../image/otaku-anime.jpg" alt="Poster"/>
+                    <img className="mx-auto w-60" src="../image/animePoster.webp" alt="Poster"/>
                     <div className="ml-3 md:ml-10">
                         <p className="font-bold text-2xl">Tatoeba Last Dungeon Mae no Mura no Shounen ga Joban no Machi de Kurasu Youna Monogatari</p>
                         <table className="table mt-3">
@@ -35,29 +35,9 @@ const Homepage = () => {
                                 <td>Spring 2021</td>
                             </tr>
                             <tr>
-                                <td>Producers</td>
-                                <td>:</td>
-                                <td>-</td>
-                            </tr>
-                            <tr>
-                                <td>Licensors</td>
-                                <td>:</td>
-                                <td>-</td>
-                            </tr>
-                            <tr>
                                 <td>Status</td>
                                 <td>:</td>
                                 <td>Not yet aired</td>
-                            </tr>
-                            <tr>
-                                <td>Studios</td>
-                                <td>:</td>
-                                <td>Doga Kobo</td>
-                            </tr>
-                            <tr>
-                                <td>Source</td>
-                                <td>:</td>
-                                <td>Light novel</td>
                             </tr>
                             <tr>
                                 <td>Genres</td>
@@ -73,111 +53,35 @@ const Homepage = () => {
                 </div>
             {/* {{-- End Top Section --}} */}
 
-            {/* Episodes Links */}
-                <div className="border-t-2 border-trueGray-700">
-                    {/* EPisode Link */}
-                    <div className="px-40 mt-3 font-semibold">
-                        <div className="bg-trueGray-900 p-5 rounded-2xl">
-                            <span className="bg-amber-500 px-16 rounded-md text-xl pb-1">Episode 01</span>
-                            <div className="flex justify-between">
-                            <div className="flex flex-col justify-center">
-                                <p className="text-center">Download Mp4</p>
-                                <div className="grid grid-cols-2 gap-4 text-center mt-2">
-                                    <a className="p-3 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">720p</a>
-                                    <a className="p-3 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">360p</a>
-                                </div>
-                            </div>
-                            <div className="flex flex-col justify-center">
-                                <p className="text-center">Download Mkv</p>
-                                <div className="grid grid-cols-2 gap-4 text-center mt-2">
-                                    <a className="p-3 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">720p</a>
-                                    <a className="p-3 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">360p</a>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    {/* End Episode Link */}
-                    {/* EPisode Link */}
-                    <div className="px-40 mt-3 font-semibold">
-                        <div className="bg-trueGray-900 p-5 rounded-2xl">
-                            <span className="bg-blue-700 px-16 rounded-md text-xl">Episode 02</span>
-                            <div className="flex justify-between">
-                            <div className="flex flex-col justify-center">
-                                <p className="text-center">Streaming</p>
-                                <div className="grid grid-cols-2 gap-4 text-center mt-2">
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">English</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">English 360p</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Indonesia</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Indonesia 360p</a>
-                                </div>
-                            </div>
-                            <div className="flex flex-col justify-center">
-                                <p className="text-center">Download Mp4</p>
-                                <div className="grid grid-cols-2 gap-4 text-center mt-2">
-                                    <a className="p-3 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">720p</a>
-                                    <a className="p-3 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">360p</a>
-                                </div>
-                            </div>
-                            <div className="flex flex-col justify-center">
-                                <p className="text-center">Download Mkv</p>
-                                <div className="grid grid-cols-2 gap-4 text-center mt-2">
-                                    <a className="p-3 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">720p</a>
-                                    <a className="p-3 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">360p</a>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    {/* End Episode Link */}
-                </div>
-            {/* End Episodes Links */}
-
             {/* Episodes Links V2 */}
-                <div className="border-t-2 mt-5 border-trueGray-700">
+                <div className="border-t-2 mt-5 border-trueGray-700 mb-5">
                     {/* EPisode Link */}
-                    <div className="px-40 mt-3 font-semibold">
+                        <div className="px-5 lg:px-40 mt-3 font-semibold">
                         <div className="bg-trueGray-900 p-5 rounded-2xl">
-                            <span className="bg-blue-700 px-16 rounded-md text-xl">Episode 01</span>
-                            <div className="flex space-x-6 items-center mt-4">
-                                <p className="text-center">Download Mp4: </p>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">English</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">English 360p</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Indonesia</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Indonesia 360p</a>
-                            </div>
-                            <div className="flex space-x-6 items-center mt-4">
-                                <p className="text-center">Download Mkv: </p>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Server 1</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Server 2</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Server 3 [360p]</a>
-                            </div>
-                        </div>
-                    </div>
-                    {/* End Episode Link */}
-                    {/* EPisode Link */}
-                    <div className="px-40 mt-3 font-semibold">
-                        <div className="bg-trueGray-900 p-5 rounded-2xl">
-                            <span className="bg-blue-700 px-16 rounded-md text-xl">Episode 02</span>
-                            <div className="flex space-x-6 items-center mt-4">
-                                <p className="text-center">Streaming: </p>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">English</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">English 360p</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Indonesia</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Indonesia 360p</a>
-                            </div>
-                            <div className="flex space-x-6 items-center mt-4">
-                                <p className="text-center">Download Mp4: </p>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">English</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">English 360p</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Indonesia</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Indonesia 360p</a>
-                            </div>
-                            <div className="flex space-x-6 items-center mt-4">
-                                <p className="text-center">Download Mkv: </p>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Server 1</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Server 2</a>
-                                    <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Server 3 [360p]</a>
+                            <div>
+                                <div className="flex justify-between">
+                                    <p className="bg-blue-700 px-10 md:px-16 py-1 rounded-md text-xl">Episode 01</p>
+                                    <button className="bg-yellow-500 hover:bg-yellow-600 duration-200 px-4 py-1 rounded-lg font-semibold flex items-center focus:outline-none outline-none">
+                                        <svg className="w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+                                        </svg>
+                                        <span className="ml-1">Stream</span>
+                                    </button>
+                                </div>
+                                    <div className="flex space-x-2 lg:space-x-6 items-center mt-4 text-xs md:text-sm font-bold">
+                                        <p className="text-center">Download Mp4: </p>
+                                        <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Server 1 [720p]</a>
+                                        <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Server 2 [720p]</a>
+                                        <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Server 3 [360p]</a>
+                                        <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Server 4 [360p]</a>
+                                    </div>
+                                    <div className="flex space-x-2 lg:space-x-6 items-center mt-4 text-xs md:text-sm font-bold">
+                                        <p className="text-center">Download Mkv: </p>
+                                        <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Server 1 [720p]</a>
+                                        <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Server 2 [720p]</a>
+                                        <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Server 3 [360p]</a>
+                                        <a className="p-1.5 rounded-lg bg-blue-700 hover:bg-blue-800 duration-200" href="/myAnimeAsia/stream">Server 4 [360p]</a>
+                                    </div>
                             </div>
                         </div>
                     </div>

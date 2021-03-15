@@ -1,4 +1,9 @@
 const Homepage = () => {
+
+  // Deklarasi harus sebelum return
+  let x =  1;
+  let a = ['a' , 'b' , 'c']
+  
   return (
   <div className="container mx-auto">
 
@@ -9,10 +14,19 @@ const Homepage = () => {
               Admin 1
             </a>
             <a href="#" className="h-44 w-52 bg-gray-400 flex justify-center items-center">
-              Admin 2
+              { x }
             </a>
             <a href="#" className="h-44 w-52 bg-gray-400 flex justify-center items-center">
-              Admin 3
+              {
+                // testing Loop
+                a.map(val => {
+                  return (
+                    <h6>
+                      { val }
+                    </h6>
+                  )
+                })
+              }
             </a>
             <a href="#" className="h-44 w-52 bg-gray-400 flex justify-center items-center">
               Admin 4
@@ -68,6 +82,9 @@ const Homepage = () => {
   </div>
 
   )
+
+  
+
 }
 
 export default Homepage;
